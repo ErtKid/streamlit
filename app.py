@@ -36,7 +36,7 @@ local_css("style/style.css")
 # ---- LOAD ASSETS ----
 lottie_heartbeat = load_lottieurl("https://assets7.lottiefiles.com/private_files/lf30_jrkcz8oc.json")
 lottie_heartbeat2 = load_lottieurl("https://assets7.lottiefiles.com/private_files/lf30_bkwar9l2.json")
-img_correlations = Image.open("./images/correlations.png")
+img_correlations = Image.open("./images/correlations.PNG")
 
 # ---- HEADER SECTION ----
 with st.container():
