@@ -9,7 +9,7 @@ from PIL import Image
 
 
 #load dataset
-df = pd.read_csv('C:/Users/maxime.avrillonthade/OneDrive - VINCI Energies/Documents/Cours H3 Hitema/analyse de donnees/Projet/heart_disease_health_indicators.csv')
+df = pd.read_csv('/data/heart_disease_health_indicators.csv)
 df['Age'] = df['Age']*4
 
 
