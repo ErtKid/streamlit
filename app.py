@@ -1,11 +1,12 @@
+
+import pandas as pd
+import numpy as np
+import seaborn as sns
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 from PIL import Image
 
-import pandas as pd
-import numpy as np
-import seaborn as sns
 
 #load dataset
 df = pd.read_csv('C:/Users/maxime.avrillonthade/OneDrive - VINCI Energies/Documents/Cours H3 Hitema/analyse de donnees/Projet/heart_disease_health_indicators.csv')
