@@ -1,4 +1,3 @@
-pyplot
 matplotlib
 seaborn
 numpy
